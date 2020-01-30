@@ -1,0 +1,19 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #EDEDEE;
+  color: #c98c5a;
+}
+.link_img{
+  height: 40vh;
+}
+.info{
+  background-color: white;
+  font-size: 1.4em;
+}
+.hand, .foot_img{
+  width: 100%;
+}
+.hand_desc, .foot_desc{
+  background-color: white;
+}

@@ -1,0 +1,11 @@
+.parralax{
+  background-image: url("../img/wallpaper.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+body, .container-fluid{
+  margin: 0;
+  padding: 0;
+}
+h1, h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar{
+  width: 100%;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+.footer_title{
+  font-size: 20px;
+}

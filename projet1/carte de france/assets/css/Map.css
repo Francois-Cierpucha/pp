@@ -1,0 +1,72 @@
+.mapImg, .mapDomTom{
+    width: 60%;
+    float: left;
+}
+.mapImg path{
+    stroke: #FFF;
+    stroke-widht: 1px;
+    transition: fill 0.3s;
+}
+.mapImg path:hover{
+    opacity: 0.2;
+    stroke: #FFF;
+    stroke-widht: 1px;
+    transition: 0.2s;
+}
+.mapDomTom{
+    width: 12%;
+    float: left;
+}
+.mapDomTom path{
+    stroke: #FFF;
+    stroke-widht: 1px;
+    transition: fill 0.3s;
+}
+.mapDomTom path:hover{
+    opacity: 0.2;
+    stroke: #FFF;
+    stroke-widht: 1px;
+    transition: 0.2s;
+}
+#Area_Aisne, #Area_Oise, #Area_Somme, #Area_Pas-de-Calais, #Area_Nord{
+    fill: green;
+}
+#Area_Finistère, #Area_Morbihan, #Area-Côtes-d-Armor, #Area_Ille-et-Vilaine{
+    fill: #4e93ed;
+}
+#Area_Manche, #Area_Calvados, #Area_Seine-Maritime, #Area_Orne, #Area_Eure{
+    fill: #00fffa;
+}
+#Area_Sarthe, #Area_Mayenne, #Area_Maine-et-Loire, #Area_Loire-Atlantique, #Area_Vendée{
+    fill: #D39C2B;
+}
+#Area_Yvelines, #Area_Val-d-Oise, #Area_Seine-Saint-Denis, #Area_Val-de-Marne, #Area_Essonne, #Area_Seine-et-Marne, #Area_Hauts-de-Seine, #Area_Ville-de-Paris{
+    fill: #939CA0;
+}
+#Area_Eure-et-Loir, #Area_Loir-et-Cher, #Area_Loiret, #Area_Indre-et-Loire, #Area_Indre, #Area_Cher{
+    fill: #dadd13;
+}
+#Area_Ardennes, #Area_Marne, #Area_Meuse, #Area_Meurthe-et-Moselle, #Area_Moselle, #Area_Bas-Rhin, #Area_Haut-Rhin, #Area_Vosges, #Haute-Marne, #Area_Aube{
+    fill: #84db13;
+}
+#Area_Yonne, #Area_Nièvre, #Area-Côte-d-Or, #Area_Haute-Saône, #Area_Territoire-de-Belfort, #Area_Doubs, #Area_Jura, #Area_Saône-et-Loire{
+    fill:#89891c;
+}
+#Area_Deux-Sèvres, #Area_Creuse, #Area_Haute-Vienne, #Area_Vienne, #Area_Corrèze, #Area_Dordogne, #Area_Lot-et-Garonne, #Area_Gironde, #Area_Charente, #Area_Charente-Maritime, #Area_Landes, #Area_Pyrénées-Atlantiques{
+    fill: #13db92;
+}
+#Area_Gers, #Area_Hautes-Pyrénées, #Area_Lot, #Area_Aveyron, #Area_Lozère, #Area_Gard, #Area_Hérault, #Area_Aude, #Area_Pyrénées-Orientales, #Area_Tarn, #Area_Tarn-et-Garonne, #Area_Haute-Garonne, #Area_Ariège{
+    fill: #A14E3D;
+}
+#Area_Vaucluse, #Area_Hautes-Alpes, #Area_Alpes-de-Haute-de-Provence, #Area_Alpes-Maritimes, #Area_Var, #Area_Bouches-du-Rhône{
+    fill: #E7A884;
+}
+#Area_Allier, #Area_Loire, #Area_Rhône, #Area_Ain, #Area_Haute-Savoie, #Area_Savoie, #Area_Isère, #Area_Drôme, #Area_Ardèche, #Area_Haute-Loire, #Area_Puy-de-Dôme, #Area_Cantal {
+    fill: #486b4a;
+}
+#Area_Haute-Corse, #Area_Corse-du-Sud{
+    fill: #ffe100;
+}
+#Area_La-Reunion, #Area_Guyane, #Area_Martinique, #Area_Guadeloupe{
+    fill: #FA8930
+}
