@@ -28,7 +28,7 @@
           <div class="row">
             <div class="col-md-12">
               <a href="maladie.php">Maladie</a>
-              <a href="#">Evénement</a>
+              <a href="evenement.php">Evénement</a>
               <a href="localisation.php">Localisation</a>
               <a href="../../Accueil.php">Accueil</a>
               <a href="#">Gallerie</a>
