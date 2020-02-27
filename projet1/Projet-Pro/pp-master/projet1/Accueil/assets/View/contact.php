@@ -7,7 +7,7 @@
         </div>    
     </div>
     <form method="POST" action="#">
-        <div class="row pt-5">
+        <div class="row pt-5 text-center">
             <div class="col-md-6 text-center form-group<?= isset($errorMessage['lastName']) ? ' has-danger' : '' ?>">
                 <label class="form-control-label" for="lastName">Votre nom : </label>
                 <input class="form-control <?= isset($errorMessage['lastName']) ? 'is-invalid' : '' ?>"type="text" name="lastName" id="lastName" placeholder="Potier" value="<?= !empty($_POST['lastName']) ? $_POST['lastName'] : '' ?>" />
@@ -27,25 +27,25 @@
             <div class="col-md-6 text-center form-group<?= isset($errorMessage['email']) ? ' has-danger' : '' ?>">
                 <label class="form-control-label" for="email">Votre mail : </label>
                 <input class="form-control <?= isset($errorMessage['email']) ? 'is-invalid' : '' ?>" type="mail" name="email" id="email" placeholder="syliepotier.sp@gmail.com" value="<?= !empty($_POST['email']) ? $_POST['email'] : '' ?>" />
-<?php if (isset($errorMessage['email'])) { ?>
+                <?php if (isset($errorMessage['email'])) { ?>
                     <p class="<?= isset($errorMessage['email']) ? 'invalid-feedback' : '' ?>"><?= $errorMessage['email'] ?></p><?php }
-?>
+                ?>
             </div>
             <div class="col-md-6 text-center form-group<?= isset($errorMessage['phone']) ? ' has-danger' : '' ?>">
                 <label class="form-control-label" for="phone">Votre téléphone : </label>
                 <input class="form-control <?= isset($errorMessage['phone']) ? 'is-invalid' : '' ?>" type="text" name="phone" id="phone" placeholder="0610516646" value="<?= !empty($_POST['phone']) ? $_POST['phone'] : '' ?>" />
-<?php if (isset($errorMessage['phone'])) { ?>
+                <?php if (isset($errorMessage['phone'])) { ?>
                     <p class="<?= isset($errorMessage['phone']) ? 'invalid-feedback' : '' ?>"><?= $errorMessage['phone'] ?></p><?php }
-?>
+                ?>
             </div>
         </div>
         <div class="row pt-5 pb-5">
             <div class="col-md-12 text-center form-group<?= isset($errorMessage['text']) ? ' has-danger' : '' ?>">
                 <label class="form-control-label" for="text">Votre Texte : </label>
                 <textarea class="form-control <?= isset($errorMessage['text']) ? 'is-invalid' : '' ?>"name="text" id="text" placeholder="Veuillez remplir ce champ de votre texte." rows="10" cols="100"><?= !empty($_POST['text']) ? $_POST['text'] : '' ?></textarea>
-<?php if (isset($errorMessage['text'])) { ?>
+                <?php if (isset($errorMessage['text'])) { ?>
                     <p class="<?= isset($errorMessage['text']) ? 'invalid-feedback' : '' ?>"><?= $errorMessage['text'] ?></p><?php }
-?>
+                ?>
             </div>
             <div class="col-md-12 text-center mt-3">
                 <input class="submit" type="submit" name="send" value="Envoyer" />

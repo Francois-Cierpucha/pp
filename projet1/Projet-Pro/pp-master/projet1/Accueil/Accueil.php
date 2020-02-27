@@ -20,19 +20,22 @@
         </div>
         <!-- header end -->
         <!-- navbar start -->
-        <div class="container-fluid" id="navbar">
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="assets/View/maladie.php">Maladie</a>
-                    <a href="assets/View/evenement.php">Evénement</a>
-                    <a href="assets/View/localisation.php">Localisation</a>
-                    <a href="#">Accueil</a>
-                    <a href="#">Gallerie</a>
-                    <a href="assets/View/soin.php">Soin</a>
-                    <a href="assets/View/contact.php">Contact</a>
+        <nav class="navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="navbar">
+                    <a class="nav-item nav-link" href="assets/View/maladie.php">Maladie</a>
+                    <a class="nav-item nav-link" href="assets/View/evenement.php">Evénement</a>
+                    <a class="nav-item nav-link" href="assets/View/localisation.php">Localisation</a>
+                    <a class="nav-item nav-link" href="Accueil.php">Accueil</a>
+                    <a class="nav-item nav-link" href="#">Gallerie</a>
+                    <a class="nav-item nav-link" href="assets/View/soin.php">Soin</a>
+                    <a class="nav-item nav-link" href="assets/View/contact.php">Contact</a>
                 </div>
             </div>
-        </div>
+        </nav>
         <!-- navbar end -->
         <div class="container-fluid">
             <div class="row">

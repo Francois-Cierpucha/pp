@@ -7,7 +7,7 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-             <p>La Pachyonychie Congénitale (PC) est une dermatose rare affectant les ongles et d'autres tissus dermiques.
+            <p class="firstBlock">La Pachyonychie Congénitale (PC) est une dermatose rare affectant les ongles et d'autres tissus dermiques.
                  Ce trouble génétique est causé par la mutation d'un gène de la kératine : soit gène KRT16 qui code pour les kératines K6a et K16 soit le gène 
                  KRT17 qui code pour les kératines K6b et K17.La  maladie  se  transmet  sur  le  mode  autosomique  dominant,  c'est-à-dire  un  risque  sur  
                  deux  de  transmission  à l'enfant.  Ce  qui  sous-entend  qu'un  enfant  naissant  sans  la  maladie,  alors  que  l'un  de  ses  parents  est  
