@@ -6,7 +6,7 @@
             <h2>Contacter nous</h2>     
         </div>    
     </div>
-    <form method="POST" action="#">
+    <form method="POST" action="contact.php">
         <div class="row pt-5 text-center">
             <div class="col-md-6 text-center form-group<?= isset($errorMessage['lastName']) ? ' has-danger' : '' ?>">
                 <label class="form-control-label" for="lastName">Votre nom : </label>
@@ -49,6 +49,13 @@
             </div>
             <div class="col-md-12 text-center mt-3">
                 <input class="submit" type="submit" name="send" value="Envoyer" />
+            </div>
+            <div class="col-md-12 text-center">
+                <p><?php
+                if (isset($emailValidate)) {
+                    echo $emailValidate;
+                }
+                ?></p>
             </div>
         </div>
     </form>

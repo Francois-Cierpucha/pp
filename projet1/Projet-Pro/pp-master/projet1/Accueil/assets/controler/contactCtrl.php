@@ -1,5 +1,6 @@
 <?php
 if(isset($_POST['send'])) {     // On vérifie que le boutton submit à bien été validé
+  $errorMessage = array();
   $regName = '#^[\'a-zàâçèéêîôùû\s-]+$#i';    //  Regex vérifiant tout les champs name
   $regMail = '#^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$#i';    //  Regex vérifiant tout les champs Email
   $regPhone = '#^[+0-9]+$#';      //regex vérifiant tout les champs numéro d téléphone
@@ -29,6 +30,7 @@ if(isset($_POST['send'])) {     // On vérifie que le boutton submit à bien ét
   if (!empty($_POST['email'])) {
     if (preg_match($regMail, $_POST['email'])) {
       $email = htmlspecialchars($_POST['email']);
+      $email = 'From:' . $email;
     } else {
       $errorMessage['email'] = 'Vous n\'avez pas remplit votre email correctement';
     }
@@ -53,6 +55,10 @@ if(isset($_POST['send'])) {     // On vérifie que le boutton submit à bien ét
     }
   } else {
     $errorMessage['text'] = 'Votre texte n\'est pas remplit ';
+  }
+  if(count($errorMessage) == 0){
+      mail('francoiscierpucha@gmail.com', 'Mon sujet', $text, $email);
+      $emailValidate = 'Le mail à bien été envoyé';
   }
 }
 ?>

@@ -30,7 +30,7 @@
                     <a class="nav-item nav-link" href="assets/View/evenement.php">Evénement</a>
                     <a class="nav-item nav-link" href="assets/View/localisation.php">Localisation</a>
                     <a class="nav-item nav-link" href="Accueil.php">Accueil</a>
-                    <a class="nav-item nav-link" href="#">Gallerie</a>
+                    <a class="nav-item nav-link" href="assets/View/gallerie.php">Gallerie</a>
                     <a class="nav-item nav-link" href="assets/View/soin.php">Soin</a>
                     <a class="nav-item nav-link" href="assets/View/contact.php">Contact</a>
                 </div>

@@ -1,8 +1,10 @@
+container-fluid{
+    flex-direction: column;
+}
 .mapImg{
     margin-top: 10vh;
     margin-left: 10vh;
     width: 60%;
-    float: left;
 }
 .mapImg path{
     stroke: #FFF;
@@ -17,7 +19,6 @@
 }
 .mapDomTom{
     width: 12%;
-    float: left;
 }
 .mapDomTom path{
     stroke: #FFF;
